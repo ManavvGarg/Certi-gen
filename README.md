@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Certi-Gen: Professional Certificate Generation Solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Introducing Certi-Gen 💡**
 
-## Available Scripts
+Certi-Gen is a cutting-edge platform designed to effortlessly generate mass certificates for any event. Simplifying the process, users can upload their template certificate in popular image formats such as .png, .jpg, or .jpeg, along with an excel sheet in .xls or .xlsx format. Additionally, users have the option to choose the font size and even upload a custom font to further customize their certificates.
 
-In the project directory, you can run:
+## Key Features:
 
-### `npm start`
+- Swift Generation: With a simple click of the "Generate Certificates" button, Certi-Gen processes the data efficiently. The generation time depends on the size of the excel sheet, ensuring rapid results regardless of the dataset's scale.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Professional "pdf" Format: All certificates are generated in a professional-grade "pdf" format, ensuring a polished and standardized appearance.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Zip File Convenience: Upon completion, Certi-Gen consolidates all generated certificates into a convenient zip file. Users can effortlessly download and unzip the file, streamlining the distribution process.
 
-### `npm test`
+## Note:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Excel Sheet Requirements: The excel sheet should contain only one column (feature) named "Name," under which all the names of the participants should be listed.
 
-### `npm run build`
+2. Font Customization: In the absence of a custom font upload, all names will be written in the "Montserrat - ALL BLACK" font, provided it is a True Type Font (.ttf).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Certificate Design Consideration: To ensure optimal results, design your template certificate with the name placement in the middle. Certi-Gen utilizes the uploaded template's Width and Height to calculate the origin point and position the names accordingly. It also readjusts font size dynamically to accommodate longer names.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Designed and Developed by [Manav Garg](https://github.com/manavvgarg), bringing innovation and efficiency to certificate generation processes. Experience the convenience and professionalism of Certi-Gen for your event today!
